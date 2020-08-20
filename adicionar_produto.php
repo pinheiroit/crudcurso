@@ -66,8 +66,6 @@
 
                                 ?>
                             
-                            
-                       
                             <option><?php echo $fornecedor?></option>
 
                             <?php } ?>
