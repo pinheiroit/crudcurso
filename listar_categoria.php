@@ -31,12 +31,11 @@
             while ($array = mysqli_fetch_array($buscar)) {
                 $codcategoria =     $array['codcategoria'];
                 $categoria = $array['categoria'];
-                $categoria =   $array['categoria'];
       ?>
       <tr>
         <td><?php echo $codcategoria?></td>
         <td><?php echo $categoria?></td>
-        <td><a class="btn btn-warning btn-sm" style="color:#fff;font-weight:bold" href="_editar_categoria.php?codcategoria=<?php echo $codcategoria ?>" role="button"><i class="far fa-edit"></i>&nbsp;Editar</a></td>
+        <td><a class="btn btn-warning btn-sm" style="color:#fff;font-weight:bold" href="editar_categoria.php?codcategoria=<?php echo $codcategoria ?>" role="button"><i class="far fa-edit"></i>&nbsp;Editar</a></td>
         <td><a class="btn btn-danger btn-sm" style="color:#fff;font-weight:bold" href="deletar_categoria.php?codcategoria=<?php echo $codcategoria ?>" role="button"><i class="fas fa-trash-alt"></i>&nbsp;Excluir</a></td>
             
         <?php } ?>
