@@ -25,6 +25,3 @@ $inserir = mysqli_query($conexao,$sql);
             </center>
         </div>
 </div>
-
-
-?>

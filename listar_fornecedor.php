@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listagem de Produtos</title>
+    <title>Listagem de Fornecedores</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/50472f3a79.js" crossorigin="anonymous"></script>
 </head>
@@ -35,8 +35,8 @@
       <tr>
         <td><?php echo $codfornec?></td>
         <td><?php echo $fornecedor?></td>
-        <td><a class="btn btn-warning btn-sm" style="color:#fff;font-weight:bold" href="_editar_categoria.php?codcategoria=<?php echo $codcategoria ?>" role="button"><i class="far fa-edit"></i>&nbsp;Editar</a></td>
-        <td><a class="btn btn-danger btn-sm" style="color:#fff;font-weight:bold" href="deletar_categoria.php?codcategoria=<?php echo $codcategoria ?>" role="button"><i class="fas fa-trash-alt"></i>&nbsp;Excluir</a></td>
+        <td><a class="btn btn-warning btn-sm" style="color:#fff;font-weight:bold" href="editar_fornecedor.php?codfornec=<?php echo $codfornec ?>" role="button"><i class="far fa-edit"></i>&nbsp;Editar</a></td>
+        <td><a class="btn btn-danger btn-sm" style="color:#fff;font-weight:bold" href="deletar_fornecedor.php?codfornec=<?php echo $codfornec ?>" role="button"><i class="fas fa-trash-alt"></i>&nbsp;Excluir</a></td>
             
         <?php } ?>
     
