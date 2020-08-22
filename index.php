@@ -26,51 +26,55 @@
       <div class="card-body">
         <h5 class="card-title">Lista de Produtos</h5>
         <p class="card-text">Aqui você poderá visualizar, editar e excluir seus produtos.</p>
-        <a href="_listar_produto.php" class="btn btn-warning">Listar Produtos</a>
+        <a href="listar_produto.php" class="btn btn-warning">Listar Produtos</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6" style="margin-top:20px;">
+    <div class="card" style="display:flex;">
+      <div class="card-body">
+        <h5 class="card-title">Adicionar Categorias </h5>
+        <p class="card-text">Cadastro de novas Categorias, para gerenciar o grupo de produtos.</p>
+        <a href="adicionar_categoria.php" class="btn btn-primary">Cadastrar Categoria</a>
       </div>
     </div>
   </div>
   <div class="col-sm-6" style="margin-top:20px;">
-    <div class="card">
+    <div class="card" style="display:flex; ">
       <div class="card-body">
-        <h5 class="card-title">Cadastrar Categoria</h5>
-        <p class="card-text">Aqui poderá cadastrar a categoria</p>
-        <a href="_adicionar_categoria.php" class="btn btn-warning">Cadastrar Categoria</a>
+        <h5 class="card-title">Lista de Categoria</h5>
+        <p class="card-text">Aqui você poderá visualizar, editar e excluir suas Categorias.Fazendo com que consiga melhorar seu cadastro.</p>
+        <a href="listar_categoria.php" class="btn btn-warning">Listar Categorias</a>
       </div>
     </div>
   </div>
-<div class="col-sm-6" style="margin-top:20px;">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Listar Categoria</h5>
-        <p class="card-text">Aqui você poderá visualizar, editar e excluir suas categorias</p>
-        <a href="listar_categoria.php" class="btn btn-warning">Listar Categoria</a>
-      </div>
-    </div>
-  </div>
-  </div>
-    </div>
-    <div class="row">
-  <div class="col-sm-6" style="margin-top:20px;">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Adicionar Fornecedor</h5>
-        <p class="card-text">Cadastro de fornecedor</p>
-        <a href="adicionar_fornecedor.php" class="btn btn-primary">Cadastrar fornecedor</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6" style="margin-top:20px;">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Lista fornecedor</h5>
-        <p class="card-text">Aqui você poderá visualizar, editar e excluir seus fornecedores</p>
-        <a href="listar_fornecedor.php" class="btn btn-warning">Listar Fornecedores</a>
-      </div>
-    </div>
-  </div>
+</div>
 
+<div class="row">
+  <div class="col-sm-6" style="margin-top:20px;">
+    <div class="card" style="display:flex;">
+      <div class="card-body">
+        <h5 class="card-title">Adicionar Fornecedores </h5>
+        <p class="card-text">Cadastro de novos fornecedores, para vincular a compra dos produtos.</p>
+        <a href="adicionar_fornecedor.php" class="btn btn-primary">Cadastrar Fornecedor</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6" style="margin-top:20px;">
+    <div class="card" style="display:flex; ">
+      <div class="card-body">
+        <h5 class="card-title">Lista de Fornecedores</h5>
+        <p class="card-text">Aqui você poderá visualizar, editar e excluir seus fornecedores.Fazendo com que consiga melhorar seu cadastro.</p>
+        <a href="listar_fornecedor.php" class="btn btn-warning">Listar fornecedores</a>
+      </div>
+    </div>
+  </div>
+</div>
 
+    </div>
+    </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

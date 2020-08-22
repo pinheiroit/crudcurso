@@ -30,13 +30,12 @@
                         <select class="form-control" name="categoria" required>
                             <?php 
                             include 'conexao.php';
-                            $sql = " SELECT * FROM CATEGORIA ORDER BY CATEGORIA ASC";
-                            $buscar = mysqli_query($conexao,$sql);
+                            $sql_categoria = " SELECT * FROM CATEGORIA ORDER BY CATEGORIA ASC";
+                            $buscar_categoria = mysqli_query($conexao,$sql_categoria);
 
-                            while ($array = mysqli_fetch_array($buscar)) {
-
-                                $codcategoria = $array['codcategoria'];
-                                $nome_categoria = $array['categoria'];
+                            while ($array_categoria = mysqli_fetch_array($buscar_categoria)) {
+                                $codcategoria = $array_categoria['codcategoria'];
+                                $nome_categoria = $array_categoria['categoria'];
 
                                 ?>
                             
@@ -47,27 +46,26 @@
                             <?php } ?>
                         </select>
                 </div>
+
                 <div class="form-group">
                     <label>Quantidade de Produto</label>
                     <input type="number" class="form-control" name="qtd" placeholder="Insira o quantidade de estoque" autocomplete="off" required>
                 </div>
+                
                 <div class="form-group">
                     <label>Fornecedor</label>
                         <select class="form-control" name="fornecedor" required>
                             <?php 
                             include 'conexao.php';
-                            $sql = " SELECT * FROM fornecedor ORDER BY fornecedor ASC";
-                            $buscar = mysqli_query($conexao,$sql);
+                            $sql_fornec = " SELECT * FROM fornecedor ORDER BY fornecedor ASC";
+                            $buscar_fornec = mysqli_query($conexao,$sql_fornec);
 
-                            while ($array = mysqli_fetch_array($buscar)) {
-
-                                $codfornec = $array['codfornec'];
-                                $fornecedor = $array['fornecedor'];
-
-                                ?>
+                            while ($array_fornec = mysqli_fetch_array($buscar_fornec)) {
                             
-                            <option><?php echo $fornecedor?></option>
-
+                                $codfornec = $array_fornec['codfornec'];
+                                $nome_fornecedor = $array_fornec['fornecedor'];
+                                ?>
+                            <option><?php echo $nome_fornecedor ?></option>
                             <?php } ?>
                         </select>
                 </div>

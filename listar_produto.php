@@ -44,7 +44,7 @@
         <td><?php echo $categoria ?></td>
         <td><?php echo $qtd ?></td>
         <td><?php echo $fornecedor ?></td>
-        <td><a class="btn btn-warning btn-sm" style="color:#fff;font-weight:bold" href="_editar_produto.php?codprod=<?php echo $codprod ?>" role="button"><i class="far fa-edit"></i>&nbsp;Editar</a></td>
+        <td><a class="btn btn-warning btn-sm" style="color:#fff;font-weight:bold" href="editar_produto.php?codprod=<?php echo $codprod ?>" role="button"><i class="far fa-edit"></i>&nbsp;Editar</a></td>
         <td><a class="btn btn-danger btn-sm" style="color:#fff;font-weight:bold" href="deletar_produto.php?codprod=<?php echo $codprod ?>" role="button"><i class="fas fa-trash-alt"></i>&nbsp;Excluir</a></td>
             
         <?php } ?>
