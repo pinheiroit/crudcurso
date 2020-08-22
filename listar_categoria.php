@@ -9,14 +9,14 @@
 </head>
 <body>
 
-<div class="container" style="margin-top:40px;">
+<div class="container" style="margin-top:40px;width:700px;">
 <center>
 <h3>Lista de Categorias</h3>
 </center>
 <table class="table">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">Código da Categoria</th>
+      <th style="text-align:center;" scope="col">Código da Categoria</th>
       <th scope="col">Categoria</th>
       <th scope="col">Ação</th>
       <th scope="col"></th>
@@ -33,7 +33,7 @@
                 $categoria = $array['categoria'];
       ?>
       <tr>
-        <td><?php echo $codcategoria?></td>
+        <td style="text-align:center;"><?php echo $codcategoria?></td>
         <td><?php echo $categoria?></td>
         <td><a class="btn btn-warning btn-sm" style="color:#fff;font-weight:bold" href="editar_categoria.php?codcategoria=<?php echo $codcategoria ?>" role="button"><i class="far fa-edit"></i>&nbsp;Editar</a></td>
         <td><a class="btn btn-danger btn-sm" style="color:#fff;font-weight:bold" href="deletar_categoria.php?codcategoria=<?php echo $codcategoria ?>" role="button"><i class="fas fa-trash-alt"></i>&nbsp;Excluir</a></td>
